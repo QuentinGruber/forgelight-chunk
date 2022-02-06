@@ -1,5 +1,5 @@
 var fs = require("fs"),
-    DataSchema = require("h1z1-dataschema");
+    DataSchema = require("h1z1-dataschema").default;
 
 function parseHeightMaps(data, offset) {
     var startOffset = offset,
